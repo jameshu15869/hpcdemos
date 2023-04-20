@@ -1,7 +1,0 @@
-{
-    "editor.formatOnSave": false,
-    "files.associations": {
-        "stdio.h": "c",
-        "omp.h": "c"
-    }
-}
