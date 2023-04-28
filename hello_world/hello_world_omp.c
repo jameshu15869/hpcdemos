@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <omp.h>
 
-#define NUM_THREADS 2
+// #define NUM_THREADS 2
 int main(){
-    omp_set_num_threads(NUM_THREADS);
+    // omp_set_num_threads(NUM_THREADS);
     #pragma omp parallel
     {
         int total_threads = omp_get_num_threads();
