@@ -13,4 +13,10 @@
 module load mpi
 
 make hello_world_mpi
+echo
+
+echo "######### OUTPUT #########"
 srun --mpi=pmix ./hello_world_mpi
+echo
+
+make clean
